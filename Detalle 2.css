@@ -1,0 +1,709 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Lexend+Deca:wght@100&family=Manrope&display=swap');
+
+@media (min-width:375px){
+    body {
+        margin: 0%;
+    }
+    
+    #inicio {
+        background-image: url('Vector fondo inicio.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        height: 57.965vw;
+    }
+    
+
+    .container {
+        display: flex; 
+    }
+    
+    #navbar {
+        height: auto;
+        width: 100%;
+        padding-top: 3.6vw;
+    }
+    
+    #logo {
+        margin-left: 8.1vw;
+        margin-top: -0.65vw;
+        width: 16.4vw;
+        height: 3.2vw;
+        flex-shrink: 0;
+    }
+    
+    .menu-btn {
+        margin-top: 9.69549vw;
+        margin-right: 9.418476vw;
+        width: 4.986252vw;
+        height: 4.432224vw;
+        cursor: block;
+        display: none;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin-left: auto;
+        margin-right: 7.95vw;
+        margin-top: 0vw;
+        width: 58.636%;
+    }
+    
+    .navbarContent {
+        margin-right: 5.32175%;
+        color: #082D00;
+        text-decoration: none;
+        font-size: 1.8vw;
+        font-family: 'Manrope', sans-serif;
+        text-align: center;
+        font-weight: 400;
+    }
+    
+    #navbarContentHistoria {
+        width: 29.5%;
+    }
+    
+    nav ul li a:hover {
+        text-decoration:underline;
+    }
+    
+    #imagenBox {
+        margin-top: 8.9vw;
+        margin-left: 8vw;
+        width: 37.65vw;
+        height: 25.25vw;
+    }
+    #imagenBoxmobile {
+        display: none;
+    }
+    
+    #presentacionBox {
+        margin-left: 8vw;
+        margin-top: 2vw;
+    }
+    
+    #titleSection {
+        color: #DF3B4B;
+        font-size: 1.2vw;
+        font-family: 'Manrope',sans-serif;
+    }
+    
+    #planTiempo {
+        margin: 0%;
+        margin-top: 2.4vw;
+        color: #082D00;
+        font-size: 1.2vw;
+        font-family: 'Manrope',sans-serif;
+    }
+    
+    #planNombre {
+        margin: 0%;
+        margin-top: 1vw;
+        color: #082D00;
+        font-size: 3vw;
+        font-family: 'Manrope',sans-serif;
+        font-weight: 700;
+    }
+    
+    #planDescripcion {
+        margin-top: 0.5vw;
+        color: #082D00;
+        font-size: 1.8vw;
+        font-family: 'Manrope',sans-serif;
+        width: 70%;
+    }
+    
+    #planPrecio {
+        margin: 0%;
+        margin-top: 1.6vw;
+        color: #082D00;
+        font-size: 3vw;
+        font-family: 'Manrope',sans-serif;
+    }
+    
+     #planBoton {
+        display: flex;
+        margin: 0%;
+        margin-top: 1vw;
+        width: 15.15vw;
+        height: 3vw;
+        background-color: #DF3B4B;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        font-size: 1.8vw;
+        font-family: 'Manrope',sans-serif;
+        border-radius: 50px;
+        cursor: pointer;
+     }
+    
+     #planBoton:hover {
+        background-color: #bb313f;
+     }
+    
+     #queRecibo {
+        margin: 0%;
+        margin-top: 4.1vw;
+     }
+    
+     #queReciboTitle {
+        text-align: center;
+        color: #082D00;
+        font-size: 3vw;
+        font-family: 'Manrope',sans-serif;
+        font-weight: 500;
+     }
+    
+     #queReciboImg {
+        margin-left: 19.7vw;
+     }
+    
+     .ImgRecibo {
+        height: 12.05vw;
+        width: auto;
+        margin-right: 5.354vw;
+     }
+    
+     .NumRecibo {
+        margin: 0vw;
+        margin-top: 0.95vw;
+        margin-right: 19.2vw;
+        color: #082D00;
+        font-size: 1.2vw;
+        font-family: 'Manrope',sans-serif;
+     }
+    
+    .TxtRecibo {
+        margin: 0vw;
+        margin-top: 0.5vw;
+        /*margin-right: 2.35vw;*/
+        color: #082D00;
+        font-size: 1.8vw;
+        font-family: 'Manrope',sans-serif;
+        font-weight: 700;
+        line-height: 2vw;
+    }
+    
+    #TxtRecibo1 {
+        margin-right: 9.4vw;
+    }
+    
+    #TxtRecibo2 {
+        margin-right: 8.5vw;
+        margin-left: 0vw;
+    }
+    
+    #TxtRecibo4 {
+        margin-right: 2.7vw;
+    }
+    
+    #TxtRecibo5 {
+        margin-right: 10.4vw;
+    }
+    
+    #QUERECIBOMovil {
+        display: none;
+    }
+    
+    #queReciboImg2 {
+        margin-top: 3.15vw;
+    }
+    
+    #mediosDePago {
+        margin-top: 5.25vw;
+    }
+    
+    #medioDePagoImg {
+        width: 100%;
+    }
+
+    #medioDePagomobile {
+        display: none;
+    }
+    
+    #sigamosAprendiendo {
+        margin-top: 10.5vw;
+    }
+    
+    #sigamosAprendiendoImg {
+        margin-left: 8.1vw;
+        width: 39.4vw;
+        height: 27.45vw;
+    }
+
+    #sigamosaprendiendomobile {
+        display: none;
+    }
+    
+    #consejos {
+        margin-left: 2.3vw;
+    }
+    
+    #consejosPre {
+        margin: 0vw;
+        color: #082D00;
+        font-size: 1.2vw;
+        font-family: 'Manrope',sans-serif;
+    }
+    
+    #consejosTitle {
+        margin: 0vw;
+        margin-top: 1vw;
+        color: #082D00;
+        font-size: 3vw;
+        font-family: 'Manrope',sans-serif;
+        font-weight: 500;
+        line-height: 3vw;
+    }
+    
+    #listaConsejos {
+        margin-top: 2.4vw;
+    }
+    
+    .filas {
+        margin-bottom: 1.5vw;
+    }
+    
+    .punto {
+        width: 1.8vw;
+        height: 1.7vw;
+    }
+    
+    .consejosContent {
+        margin: 0vw;
+        color: #082D00;
+        font-size: 1.2vw;
+        font-family: 'Manrope',sans-serif;
+        margin-left: 4vw;
+        margin-top: -3.1vw;
+        width: 65%;
+    }
+    
+    #seguiExplorando {
+        background-image: url(Fondo\ suscripcion.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        margin-top: 5.65vw;
+        padding-top: 5.65vw;
+        padding-bottom: 9.65vw;
+    }
+    
+    #seguiExplorandoTitle {
+        margin: 0%;
+        margin-top: 2.75vw;
+        color: #FFF;
+        font-size: 3vw;
+        font-family: 'Manrope',sans-serif;
+        text-align: center;
+    }
+    
+    #planesTipos {
+        margin-top: 2.197vw;
+        justify-content: center;
+    }
+    
+    .planesTipos {
+        /*height: 64.73779%;
+        width: 26.2069%;*/
+        height: auto;
+        width: 23.25vw;
+        border-radius: 52px;
+        background-color: #FFF;
+        margin-right: 5.05vw;
+    }
+    /*
+    .planesTipos:hover {
+        cursor: pointer;
+        transform: scale(1.05,1.05);
+        border-width: 0.3vw;
+        border-color: #082D00;
+        border-style: solid;
+        height: auto;
+        width: 29.7vw;
+    }
+    */
+    .planesNombres {
+        margin-top: 2.05vw;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 1.8vw;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .planesImg {
+        width: 15.1vw;
+        height: 10.1vw;
+        margin-left: 4vw;
+    }
+    
+    .planesTxtBasic {
+        margin-top: 0.95vw;
+        text-align: center;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 1.2vw;
+        font-weight: 700;
+    }
+    
+    .planesTxt {
+        margin-top: 0.55vw;
+        text-align: center;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 1.2vw;
+        height: 5vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    
+    .planesPrecios {
+        margin-top: 1.9vw;
+        text-align: center;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 3vw;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+    
+    .planesTiempos {
+        margin-top: 0px;
+        text-align: center;
+        color: #082D00;
+        font-size: 1.2vw;
+        font-family: 'Manrope',sans-serif;
+    }
+    
+    #piePagina {
+        margin-top: 3.1vw;
+        background-color: #FFF;
+        padding-bottom: 1.8vw;
+    }
+
+    #SEGUIEXPLORANDOMovil {
+        display: none;
+    }
+
+    /*
+    #piePagina1 {
+        height: 62.59947%;
+    }
+    */
+    #logoFooter {
+        width: auto;
+        height: 3.2vw;
+        margin-top: 0vw;
+        margin-left: 8.1vw;
+    }
+    
+    #pieContent {
+        width: 67.132867%;
+        margin-right: 0;
+        margin-left: 23.6vw;    
+    }
+    
+    #pieContactanosTxt {
+        margin-top: 0vw;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.2vw;
+        line-height: 2.5vw;
+    }
+    
+    #iconosRedes {
+        width: 7.8vw;
+        height: auto;
+    }
+    
+    #pieInformacionTxt {
+        margin-top: 0vw;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.2vw;
+        margin-left: 3vw;
+        width: 100%;
+        line-height: 2.5vw;
+    }
+    
+    #pieSobreNosotrosTxt {
+        margin-top: 0vw;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.2vw;
+        line-height: 2.5vw;
+        margin-left: 3vw;
+        width: 100%;
+    }
+    
+    #pieFinal {
+        text-align: center;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.2vw;
+        margin-top: 2.6vw;
+    }
+    body{
+        margin: 0%;
+    }
+   
+}
+
+@media (max-width:376px){
+
+    #inicio {
+        background-image: url('fondo\ inicio\ mobile.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        height: 207.965vw;
+    }
+
+    .container {
+        display: none; 
+    }
+
+    .containerMovil {
+        display: flex;
+    }
+
+    #navbar {
+        height: 20.77605vw;
+       /* height: 9.52986%;*/
+        
+    }
+    .menu-btn {
+        margin-top: 9.69549vw;
+        margin-right: 5vw;
+        margin-left: auto;
+        width: 4.986252vw;
+        height: 4.432224vw;
+        cursor: pointer;
+    }
+    #imagenBox {
+        display: none;
+    }
+    
+    #imagenBoxmobile {
+        width: 100%;
+        margin-top: 10.5vw;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding-top: 3.35418%;
+        margin-left: auto;
+        margin-right: 0;
+        margin-top: 0%;
+        width: 60%;
+        display: none;
+    }
+
+    .navbarContent {
+        margin-right: 5.32175%;
+        color: #082D00;
+        text-decoration: none;
+        font-size: 1.8vw;
+        font-family: 'Manrope', sans-serif;
+        text-align: center;
+        font-weight: 400;
+        
+    }
+
+    #navbarContentHistoria {
+        width: 29.5%;
+    }
+
+    nav ul li a:hover {
+        text-decoration:underline;
+    }
+
+    #title {
+        position: relative;
+        padding-left: 8.864448vw;
+        padding-top: 4.4322224vw;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 13.296672vw;
+        font-weight: 800;
+        text-align: left;
+        padding-bottom: 0%;
+        margin: 0%;
+        height: auto;
+        line-height: 15vw;
+    }
+
+    #parrafoSuscripcion {
+        padding-left: 8.864448vw;
+        width: auto;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 4.432224vw;
+        font-weight: 400;
+        margin: 0%;
+        margin-top: 5vw;
+        height: 25.208274vw;
+    }
+
+    #botonUnite {
+        display: flex;
+        text-decoration: none;
+        color: #FFF;
+        margin-top: 3.878196vw;
+        margin-left: 8.587434vw;
+        width: 82.273158vw;
+        height: 11vw;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Manrope', sans-serif;
+        font-size: 4.432224vw;
+        font-weight: 400;
+        background-color: #DF3C4B;
+        border-radius: 50px;
+    }
+
+    #botonUnite:hover {
+        background-color: #bb313f;
+    }
+    #queReciboTitle {
+        
+        margin-top: 6.371322vw;
+        color: #082D00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 8.864448vw;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 5vw;
+        width: 60%;
+        margin-left: 18vw;
+    }
+    .boxImgMovil {
+        margin-left: 10.404728vw;
+        width: 70.915584vw;
+        margin-top: 13.8507vw;
+    }
+    
+   .boxNumMovil {
+        margin-left: 6.864448vw;
+        font-size: 4.432224vw;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        margin-top: 3.601182vw;
+        margin-bottom: 0%;
+    }
+
+    .boxTxtMovil {
+        margin-left: 6.864448vw;
+        font-size: 6.648336vw;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        margin-top: 0vw;
+        margin-bottom: 0%;
+        font-weight: 700;
+        /*margin-bottom: 9.69549vw;*/
+    }
+    #medioDePagoImg {
+        display: none;
+    }
+    
+    #medioDePagomobile {
+        width: 100%;
+        margin-top: 10.5vw;
+    }
+     #seguiExplorando{
+        display: none;
+    }
+
+    #SEGUIEXPLORANDOMovil{
+        background-image: url('fondo\ box\ mobile.png');
+        background-repeat: no-repeat;
+        background-size: auto 530vw; /*cambiar a contain*/
+        background-attachment: scroll;
+        height: 530vw;
+    }
+
+    #planesTitleMovil {
+        color:#FFF;
+        text-align: center;
+        font-family: 'Manrope', sans-serif;
+        font-size: 8.864448vw;
+        font-weight: 500;
+        padding-top: 14.404728vw;
+        margin: 0%;
+    }
+
+    #planesTiposMovil {
+        margin-top: 4.986252vw;
+        margin-left:  7vw;
+    }
+
+    .planesTipos {
+        height: 144.04728vw;
+        width: 82.273158vw;
+        border-radius: 52px;
+        background-color: #FFF;
+        margin-bottom: 8.033406vw;
+    }
+
+    .planesNombres {
+        padding-top: 6.92535vw;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 6.648336vw;
+        font-weight: 700;
+        text-align: center;
+        margin: 0%;
+    }
+
+    .planesImg {
+        width: 62.882178vw;
+        height: 42.106128vw;
+        margin-left: 7.756392vw;
+        margin-top: 6.094308vw;
+    }
+
+    .planesTxtBasic {
+        margin-top: 8.587434vw;
+        text-align: center;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 4.432224vw;
+        font-weight: 700;
+        margin-bottom: 0%;
+    }
+
+    .planesTxt {
+        margin-top: 0vw;
+        text-align: center;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 4.432224vw;
+        margin-bottom: 0%;
+    }
+
+    .planesPrecios {
+        margin-top: 3.601182vw;
+        text-align: center;
+        color: #082D00;
+        font-family: 'Manrope',sans-serif;
+        font-size: 8.864448vw;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+
+    .planesTiempos {
+        margin-top: 0px;
+        text-align: center;
+        color: #082D00;
+        font-size: 4.432224vw;
+        font-family: 'Manrope',sans-serif;
+        margin-bottom: 0%;
+    }
+    body{
+        margin: 0%;
+    }
+}
